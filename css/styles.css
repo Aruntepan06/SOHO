@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    
+  }
+ 
+ 
+ h1{ 
+ 
+    color: #531D40;
+   font-size: 5.625rem;
+   margin-top: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+ 
+    
+ }
+ 
+ .btn {
+  background: #FFE3DC;
+  background-image: -webkit-linear-gradient(top, #FFE3DC, #531D40);
+  background-image: -moz-linear-gradient(top, #FFE3DC, #531D40);
+  background-image: -ms-linear-gradient(top, #FFE3DC, #531D40);
+  background-image: -o-linear-gradient(top, #FFE3DC, #531D40);
+  background-image: linear-gradient(to bottom, #FFE3DC, #531D40);
+  -webkit-border-radius: 35;
+  -moz-border-radius: 35;
+  border-radius: 35px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 21px;
+  padding: 8px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #531D40;
+  background-image: -webkit-linear-gradient(top, #531D40, #FFE3DC);
+  background-image: -moz-linear-gradient(top, #531D40, #FFE3DC);
+  background-image: -ms-linear-gradient(top, #531D40, #FFE3DC);
+  background-image: -o-linear-gradient(top, #531D40, #FFE3DC);
+  background-image: linear-gradient(to bottom, #531D40, #FFE3DC);
+  text-decoration: none;
+}
+
+ .top-container{
+  padding-top: 100px;
+    background-color: #FFE3DC;
+   
+ }
+ 
+ .Header-pic{
+   width: 400px;
+   background-color: #FFE3DC;
+   position: relative;
+   bottom: 100px;
+   left: 90px;
+
+ }
+ .logo-img{
+  width: 300px;
+
+ }
+ .profile{
+  width: 50px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+ }
+ .top-cloud {
+  position: absolute;
+  right: 130px;
+  bottom: 300px;
+  width: 200px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 150px;
+  top: 80px;
+  width: 150px;
+}
+
+
+.balloon-image{
+  width: 100px;
+  position: absolute;
+  left: calc(50% - 70.5px);
+  bottom: 200px;
+  animation-name: balloon-animation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+
+
+ .ground {
+  width: 700px;
+  max-width: 100%;
+  margin-bottom: -4px;
+}
+h2{
+  font-weight: normal;
+  color:#531D40;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+h3{
+  color: #9f1177;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Camera{
+  width: 300px;
+  position:absolute;
+  left: 200px;
+  bottom: auto;
+
+}
+
+.Drone{
+  width: 380px;
+  position: absolute;
+  right: 160px;
+  bottom: auto;
+
+}
+.bottom-container{
+  background-color: #531D40;
+}
